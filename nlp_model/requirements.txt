@@ -1,0 +1,6 @@
+flask
+torch
+transformers>=4.30.0
+pandas
+scikit-learn
+accelerate>=0.26.0
