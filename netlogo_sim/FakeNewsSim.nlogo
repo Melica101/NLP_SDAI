@@ -17,7 +17,7 @@ to setup
   ;; create all roles
   create-turtles 5 [ set role "troll" set color red ]
   create-turtles 10 [ set role "spreader" set color blue ]
-  create-turtles 2 [ set role "factchecker" set color green ]
+  create-turtles 5 [ set role "factchecker" set color green ]
   create-turtles 2 [ set role "user" set color yellow ]
 
   ask turtles [
@@ -80,7 +80,7 @@ to generate-fake-news
 end
 
 to generate-user-news
-  if last-message = "" and random 100 < 3 [
+  if last-message = "" and random 100 < 5 [
     set last-message one-of ["NASA launches new telescope" "Doctors discover malaria vaccine"
                              "Water found on Mars" "Election results confirmed"
                              "New species found in Amazon" "Senate passes immigration reform bill" "Biden signs executive order on AI safety" "UN report on climate change sparks debate" "CDC warns of new flu outbreak this winter"]

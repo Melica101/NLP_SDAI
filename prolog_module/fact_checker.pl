@@ -1,7 +1,7 @@
 :- module(fact_checker, [is_fake/1, is_real/1]).
 
 fake_news_terms([
-    "flat earth",
+    "earth is flat",
     "alien",
     "UFO",
     "ghost",
