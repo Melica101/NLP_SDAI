@@ -13,7 +13,7 @@ public class NewsSpreaderAgent extends Agent {
                 ACLMessage msg = receive(MessageTemplate.MatchPerformative(ACLMessage.INFORM));
                 if (msg != null) {
                     String news = msg.getContent();
-                    // System.out.println(getLocalName() + " received: " + news);
+                    System.out.println(getLocalName() + " received: " + news);
 
                     ACLMessage forward = new ACLMessage(ACLMessage.INFORM);
                     forward.setContent(news);
@@ -21,7 +21,7 @@ public class NewsSpreaderAgent extends Agent {
                         forward.addReceiver(new AID("FactCheckerAgent" + i, AID.ISLOCALNAME));
                     }
                     send(forward);
-                    // System.out.println(getLocalName() + " forwarded to FactCheckerAgents: " + news);
+                    System.out.println(getLocalName() + " forwarded to FactCheckerAgents: " + news);
                 } else {
                     block();
                 }

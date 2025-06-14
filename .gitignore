@@ -4,3 +4,4 @@ venv/
 
 *.jar
 .DS_Store
+*.class

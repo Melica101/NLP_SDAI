@@ -27,7 +27,7 @@ public class TrollAgent extends Agent {
                 }
                 msg.setContent(news);
                 send(msg);
-                // System.out.println(getLocalName() + " sent: " + news);
+                System.out.println(getLocalName() + " sent: " + news);
             }
         });
     }
