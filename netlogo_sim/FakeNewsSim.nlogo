@@ -121,7 +121,7 @@ to spread-news
 end
 
 to verify-nearby-news
-  let targets turtles in-radius 2 with [
+  let targets turtles in-radius 3 with [
     role = "spreader" and label-color = white and last-message != ""
   ]
 
