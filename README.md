@@ -36,7 +36,7 @@ This project combines NLP (BERT), Symbolic Reasoning (Prolog), and a Multi-Agent
 
 ---
 
-## JADE Multi-Agent System (`JadeMAS/`)
+## JADE Multi-Agent System (`jadeMAS/`)
 
 1. **Download and add the `lib/` folder** to the root of the project:
    - Contains `jade.jar`, `jpl.jar`, and other required JARs
@@ -76,7 +76,7 @@ This allows communication with the NetLogo simulation via input/output files.
 
 ---
 
-## NetLogo Simulation
+## NetLogo Simulation (`netlogo_sim/`)
 
 1. Download and install the [NetLogo application](https://ccl.northwestern.edu/netlogo/).
 2. Open the file: `netlogo_sim/FakeNewsSim.nlogo`
