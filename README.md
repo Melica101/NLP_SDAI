@@ -13,7 +13,7 @@ This project combines NLP (BERT), Symbolic Reasoning (Prolog), and a Multi-Agent
 
 ---
 
-## 🔍 Flask API – NLP Model (`nlp_model/`)
+## Flask API – NLP Model (`nlp_model/`)
 
 1. **Download the BERT model weights**:
    - Place the `best_model.pt` file in `nlp_model/model/`
